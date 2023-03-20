@@ -1,0 +1,97 @@
+Learning Git Commands:
+___________________________
+1. How to clear the terminal : clear OR cls
+2. How to get help : git config -h OR git help config 
+3. 
+
+How to create your own git repository : 
+__________________________________________
+You find the location of the folder : C:\Users\Trevlin Naicker\Documents\KevinCookieCompany
+You go in the cmd terminal and type cd <filelocation>
+Then you press enter then add git init
+you have now created a git repository 
+
+If you go to the folder it would have a hidden file named git with all the required information 
+
+git status   (This is mostly used ) 
+__________
+This will check what files are tracked and what are not , it means which files you are keeping up with 
+The version and all that to see if there was any changes or has it been deleted you need it to be tracked . 
+untracked files will not be cared for in git . you can revert to shit if you track it 
+
+How to track a file : git add <filename>
+____________________
+To see if it really is being tracked you use the git status again and it will show you the information 
+
+How to track all the files at once instead of one at a time : git add --all OR git add . OR git add -A
+_______________________________________________________________
+What is a commit ? 
+Basically a snapshot of what your files look like right now 
+How to commit the files : git commit -m "<messageforthecommit>"
+___________________________
+When you change a file and then go into cmd prompt and say git status it will say one is modified and you can press git diff to 
+check what was changed in that file . 
+
+In git there are 3 different environments : For more information on this ( https://youtube.com/clip/Ugkx4nr0pmnWPRB3i5ms1_4jyn-aFPUbeWVh  ) 
+Working Files - the files you are working with 
+Staging  like a holding pen before you add it to the history books 
+Commits - adding it to the history books 
+
+How to add a file to staged : git add <filename> 
+How to put a file back to working files from staging : git restore --staged <filename> 
+******Only files in staging will be commited ***********
+You can put a file in staging and then commit it or you can skip the staging part and go 
+straight to commiting it like this : git commit -a -m "<messagetext>"
+
+Deleting a file : git rm "<filename>"
+________________
+if you delete a file in the folder and that item is being tracked git will know about it .
+and you can restore it : git restore "<filename>"  
+
+How to rename a file : git mv "<filename>" "<newName>"
+_______________________OR you can rename it in the folder which is much easier 
+saving it in the log : 
+git commit -m "renamed the file " 
+
+How to rename a commit : git commit -m "name of commit " --amend
+
+How to create another branch : git branch <nameofbranch>
+_________________________________
+How to see how many branches there are : git branch
+_____________________________________________
+How to switch branches : git switch <branchname>
+_________________________
+If you change information in the branch , it wont reflect in the master branch till you merge them 
+This is how you merge a branch with the master branch : git merge -m "merge branch" <branchname>
+___________________________________________________________
+
+ How to create and switch to another branch at the same time :  git switch -c "<branchname>" 
+_____________________________________________________________________
+
+When working on a project : 
+______________________________
+create a new branch to work on specific task and then merge it back when done and delete branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
