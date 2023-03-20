@@ -73,7 +73,8 @@ ______________________________
 create a new branch to work on specific task and then merge it back when done and delete branch
 
 
-
+How to add the branches to git aswell : git push --all
+______________________________________
 
 
 
