@@ -72,6 +72,9 @@ When working on a project :
 ______________________________
 create a new branch to work on specific task and then merge it back when done and delete branch
 
+How to push a new commit to the github remote repo: git push
+___________________________________________________________
+
 How to send the branches to github aswell : git push --all
 ___________________________________________
 
