@@ -78,7 +78,11 @@ ___________________________________________________________
 How to send the branches to github aswell : git push --all
 ___________________________________________
 
+after adding the repo to the main origin repo . how to undo that : 
 
+Fairly straightforward:
+
+git remote rm origin
 
 
 
