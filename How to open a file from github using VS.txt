@@ -1,0 +1,6 @@
+You have the repository of the project , you get the url of it 
+You open visual studio and click clone a repository then you add the url in it and the location and click clone  . 
+
+How to upload a new project to github using visual studio : 
+you to go the project in the visual studio then you click extensions and then manage then you download the github thing that allows this and you restart the visual studio
+.It will install some things and then you start visual studio up again . 
